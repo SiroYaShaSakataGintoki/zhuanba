@@ -1,0 +1,53 @@
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.body{
+width: 100%;
+height:520px; 
+margin-top: 0;
+}
+.header{
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+  background-color:white;
+  position:fixed;
+  display:flex;
+  align-items: flex-start;
+  z-index: 1000;
+}
+.input{
+  border: 1px solid black;
+  margin: auto;
+  margin-top:5px;
+  width:60%;
+  height: 20px; 
+}
+.placeholdText{
+font-size: 2em;
+}
+.commodity{
+position: absolute;
+margin-top:100px;
+width: 100%;
+height: 260px;
+background-color: pink;
+}
+.commodity1{
+  width: 45%;
+  height: 200px;
+  margin-top: 30px;
+  border: 1px solid black;
+  margin-left: 10px;
+
+}
+.commodity2{
+  width: 45%;
+  height: 200px;
+  margin-top: 30px;
+  border: 1px solid black;
+  margin-right: 10px;
+}

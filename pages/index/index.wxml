@@ -1,0 +1,12 @@
+<view class="body">
+<!-- header区 -->
+<view class="header fl">
+<input type="text" placeholder="店铺" class="input"/>
+<button class="btn1"  size="mini" form-type="primary"> 提交 </button>
+</view>
+<!-- 商品区 -->
+<view class="commodity fl">
+<view class="commodity1 fl">商品1</view>
+<view class="commodity2 fr">商品2</view>
+</view>
+</view>

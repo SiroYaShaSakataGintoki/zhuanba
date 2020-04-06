@@ -1,0 +1,27 @@
+<view class="body">
+<!-- header区 -->
+ <view class="header fl">
+ <text class="text1 fl">请选择所卖东西的类型</text>
+ </view>
+ <!-- 选择复选框choose区 -->
+ <view class="choose fl">
+ <checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{items}}">
+    <checkbox checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</checkbox-group>
+<!-- 拍照上传区 -->
+ </view>
+ <input class="text2 fl" placeholder="拍照上传" disabled="disabled" >
+ </input>
+ <view class="picture fl"  bindtap="chooseimage">
+ <image src="{{tempFilePaths }}" mode="scaleToFill"/>
+ </view>
+ <!-- 商品详情区 -->
+ <view class="information">
+ <form bindsubmit="bindFormSubmit">
+    <textarea  placeholder="商品详情:" name="textarea"/>
+    <button form-type="submit"> 提交 </button>
+ </form>
+</view>
+</view>
